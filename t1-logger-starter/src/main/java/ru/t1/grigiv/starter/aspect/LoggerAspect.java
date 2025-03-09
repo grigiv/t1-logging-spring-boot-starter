@@ -5,11 +5,9 @@ import org.aspectj.lang.annotation.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.logging.LogLevel;
-import org.springframework.stereotype.Component;
 import ru.t1.grigiv.starter.config.LoggerProperties;
 
 @Aspect
-@Component
 public class LoggerAspect {
     private static final Logger logger = LoggerFactory.getLogger(LoggerAspect.class);
 
