@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: t1-test-project
+
+logger:
+  enabled: true
+  level: WARN
